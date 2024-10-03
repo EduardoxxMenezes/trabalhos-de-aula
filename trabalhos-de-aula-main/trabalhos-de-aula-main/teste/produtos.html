@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="salvar.js"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <div id="Titulo">
+            <h1>Cavalos.com</h1> 
+        </div>
+    </header>
+    <nav class="UnderHeader">
+        <div class="links">
+            <a href="index.html">Inicio</a>
+        </div>
+        <div class="links">
+            <a href="produtos.html">produtos</a>
+        </div>
+        <div class="links">
+            <a href="funcionarios.html">funcionarios</a>
+        </div>
+        <div class="links">
+            <a href="adicionarProduto.html">adicionar produtos</a>
+        </div>
+        <div class="links">
+            <a href="carrinho.html"><img src="../Assets/carrinho.png" alt="Carrinho" style="width: 50px; height: auto; margin: -20px; padding: -20px; margin-top: -3px;"></a>
+
+        </div>
+    </nav>
+    <main class="Quadro1">
+        <table>
+            <tr>
+                <th><h2>Imagem</h2></th>
+                <th><h2>Nome</h2></th>
+                <th><h2>preço</h2></th>
+                <th><h2>Comprar</h2></th>
+            </tr>
+            <tr>
+                <td><img src="../Assets/cavalo.jfif" alt="cavalo comum" class="images"></td>
+                <td>cavalo marrom</td>
+                <td>155.99</td>
+                <td><form action="salvar.js">
+                    <label for="comprar">Comprar</label>
+                    <input type="checkbox" id="P1" name="comprar">
+              </td>
+            </tr>
+            <tr>
+                <td><img src="../Assets/cavalo.jfif" alt="cavalo comum" class="images"></td>
+                <td>angelo</td>
+                <td>155.99</td>
+                <td>
+                    <label for="comprar">Comprar</label>
+                    <input type="checkbox" id="P2" name="comprar">
+               </td>
+            </tr>
+            <tr>
+                <td><img src="../Assets/cavalobrtanc.jfif" alt="cavalo branco" class="images"></td>
+                <td>cavalo normal</td>
+                <td>8.999,99</td>
+                <td>
+                    <label for="comprar">Comprar</label>
+                    <input type="checkbox" id="P3" name="comprar">
+               </td>
+            </tr>
+            <tr>
+                <td><img src="../Assets/cavalopreto.jfif" alt="cavalo preto" class="images"></td>
+                <td>cavalo preto</td>
+                <td>5,99</td>
+                <td>
+                    <label for="comprar">Comprar</label>
+                    <input type="checkbox" id="P4" name="comprar">
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <label for="comprar">Vendedor(a): </label>
+                    <select name="comprar" id="vendedor">
+                        <option value="vendedora1">Fabiana.</option>
+                        <option value="vendedora2">Pamela.</option>
+                        <option value="Gerente">Katia.</option>
+                        <option value="outro">Outro.</option>
+                    </select>
+                    <label for="comprar">Forma de pagamento: </label>
+                    <select name="comprar" id="pagamento">
+                        <option value="dinheiro">Dinheiro.</option>
+                        <option value="credito">Crédito.</option>
+                        <option value="debito">Débito.</option>
+                        <option value="pix">Pix.</option>
+                        <option value="servicos">Serviços.</option>
+                        <option value="Deus">Que deus te pague em Dobro🙏</option>
+                    </select>
+                </td>
+           
+                <td>
+                    <label for="comprar"> Data: </label>
+                        <input type="date" id="Data">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comprar">Horario: </label>
+                    <input type="time" id="Horario">
+                </td>
+                <td>
+              <label for="comprar"></label>
+                <input type="submit" name="comprar" id="comprar">
+            </form>
+        </td>
+            </tr>
+        </table>
+    </main>
+    <nav class="upperFooter"></nav>
+    <footer class="footer">
+        <h3>Contatos:</h3>
+        <ol>
+            <li>Instagram: @xuxuca's horses</li>
+            <li>Facebook: nao tem</li>
+            <li>endereço: rua santa marcia, estradinha do sul.</li>
+        </ol>
+    </footer>
+</body>
+</html>
